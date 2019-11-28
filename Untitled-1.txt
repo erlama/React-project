@@ -1,0 +1,31 @@
+ <nav className="nav-clear navbar bg-white navbar-expand-lg navbar-light bg-light">
+      <ul className="navbar-nav mr-auto">
+        <li className="nav-item active">
+          <Link className="nav-link" to="#">Nyheter</Link>
+        </li>
+        <li className="nav-item active">
+          <Link className="nav-link" to="#">Katagorier</Link>
+        </li>
+        <li className="nav-item active">
+          <Link className="nav-link" to="#">Topplistan</Link>
+        </li>
+        <li className="nav-item active">
+          <Link className="nav-link" to="#">Rea</Link>
+        </li>
+        <li className="nav-item active">
+          <Link className="nav-link" to="#">Kampanjer</Link>
+        </li>
+        <li className="nav-item active">
+          <Link className="nav-link" to="#">Varumärken</Link>
+        </li>
+        <li className="nav-item active">
+          <Link className="nav-link" to="#">Shop</Link>
+        </li>
+        <li className="nav-item active">
+          <Link className="nav-link" to="#">Instagram</Link>
+        </li>
+        <li className="nav-item active">
+          <Link className="nav-link" to="/detailsPage">Details page</Link>
+        </li>
+      </ul>
+  </nav>

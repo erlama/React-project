@@ -1,0 +1,280 @@
+/* Header -------------------------- */
+.nav-right{
+    float: right;
+    padding-top: 3%;
+    width: 25%;
+}
+.nav-left{
+    float: left;
+    padding-top: 2%;
+    padding-left: 5%;
+    width: 50%;
+}
+.img-left-one{
+    padding-right: 3%;
+    padding-bottom: 1%;
+}
+.img-left-two{
+    height: 2em;
+    padding-bottom: 1.2%;
+    padding-right: 1%;
+}
+.input-left{
+    border-radius: 5px;
+}
+.select-right{
+    padding-right: 2%;
+    border-radius: 5px;
+}
+.img-right{
+    height: 3em;
+    padding-bottom: 2%;
+    padding-left: 3%;
+}
+
+@media screen and (max-width: 400px) {
+    .nav-right, .img-left-two{
+        display: none;
+    }
+    .nav-left{
+        float: none;
+    }
+    .img-left-one{
+        height: 250px;
+        padding-left: 80px;
+    }
+    .input-left{
+        height: 80px;
+        width: 950px;
+        font-size: 55px;
+        padding-left: 10px;
+        margin-left: 40px;
+    }
+  }
+
+/* Navbar ----------------------- */
+.nav-clear{
+    clear: both;
+}
+.nav-navbar{
+    margin-left: 4.5%;
+}
+@media screen and (max-width: 400px){
+    .col-apse{
+        height: 180px;
+        width: 180px;
+        font-size: 80px;
+        margin: 40px;
+    }
+    .nl{
+        font-size: 50px;
+        margin-left: 40px;
+    }
+}
+
+/* Start page ------------------- */
+.firstPage-div{
+    margin-left: 3.5%;
+    margin-right: 3.5%;
+}
+.first-col{
+    border: 1px solid black;
+    display: flex;
+    margin-left: 2.3%;
+    margin-right: 2.3%;
+}
+.first-left{
+    flex: 1;
+    padding: 40px
+}
+.first-left button{
+   width: 150px;
+   background-color: white;
+    color: black;
+    border: 2px solid rgb(126, 128, 129);
+    outline: none;
+    border-radius: 5px;
+}
+.first-right img{
+    float: right;
+    height: auto;
+    width: 100%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-right: 2%;
+}
+.second-col{
+    display: flex;
+    padding: 20px;
+}
+.second-card{
+    flex: 1;
+    height: auto;
+    width: 160%;
+}
+.second-card img{
+    height: auto;
+    width: 160%;
+    padding: 4%;
+}
+.body{
+    width: 160%;
+}
+.card-title{
+    text-align: center;
+}
+.third-col{
+    display: flex;
+    padding-left: 3%;
+}
+.third-card{  
+    flex: 1;
+}
+.third-card img{
+    height: 120%;
+    width: 235%;
+    padding-right: 3%;
+}
+@media screen and (max-width: 400px){
+    .firstPage-div{
+        margin-left: 3.5%;
+        margin-right: 3.5%;
+    }
+    .first-col{
+        border: none;
+        display: inline;
+    }
+    .first-left{
+        padding: 0
+    }
+    .first-left h3{
+        font-size: 800%;
+        padding-left: 50px;
+    }
+    .first-left p{
+        font-size: 180%;
+        padding-left: 50px;
+    }
+    .first-left button{
+       width: 350px;
+       background-color: white;
+        color: black;
+        border: 2px solid rgb(126, 128, 129);
+        outline: none;
+        border-radius: 5px;
+        font-size: 65px;
+        margin-left: 295px;
+    }
+    .first-right img{
+        height: auto;
+        float: none;
+        width: 250%;
+        padding-top: 10%;
+        padding-bottom: 2%;
+        padding-left: 50px;
+    }
+    .second-col{
+        display: inline;
+        padding: 20px;
+    }
+    .second-card{
+        height: auto;
+        width: 160%;
+    }
+    .second-card img{
+        height: auto;
+        width: 310%;
+        margin-left: 14%;
+    }
+    .body{
+        width: 310%;
+    }
+    .third-col{
+        display: none;
+    }
+    .card-title{
+        font-size: 320%;
+    }
+}
+
+/* Details page ----------------- */
+.dp-left{
+    float: left;
+}
+.dp-right{
+    float: right;
+}
+.dp-second{
+    clear: both;
+}
+.ul-start{
+    list-style: none;
+    padding-right: 8%;
+    padding-left: 5%;
+    display: flex;
+}
+.li-start{
+    border: 1px solid black;
+    flex: 1;
+    padding: 90px;
+    text-align: center;
+    margin: 1%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 150%;
+}
+.rek-h4{
+    padding-left: 5.8%;
+}
+
+/* Footer ---------------------- */
+.main-footer{
+    padding-left: 3.5%;
+    padding-top: 2%;
+}
+.ul-footer{
+    list-style: none;
+    display: flex;
+}
+.li-footer{
+    flex: 1;
+}
+.footer-fist-div{
+    flex: 1;
+    padding-left: 2%;
+}
+.img-footer-first{
+    height: 2em; 
+}
+.footer-the-parent{
+    display: flex;
+    padding-left: 4%;
+    padding-top: 2%;
+}
+.footer-the-parent label{
+    font-weight: bold;
+}
+.footer-parent{
+    display: flex;
+    height: 200px;
+    width: 700px;
+}
+.footer-parent2{
+    padding-left: 450px;
+}
+.footer-child{
+    width: 170px;
+    height: 150px;
+    margin: 20px;
+}
+
+.footer-child2{
+    width: 25em;
+    height: 200px;
+}
+.copy-footer{
+    padding-top: 20px;
+}
+.select-footer{
+    padding-right: 25%;
+    border-radius: 5px;
+}
