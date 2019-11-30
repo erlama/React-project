@@ -30,7 +30,6 @@ const Footer = () => (
                     <p>Vinter jackor</p>
                     <p>Puffer jackor</p>
                     <p>Kappa</p>
-                    <p>Trenchcoats</p>
                 </div>
                 <div className="footer-child">
                     <label>Mina sidor</label>

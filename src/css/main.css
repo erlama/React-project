@@ -1,3 +1,4 @@
+
 /* Header -------------------------- */
 .nav-right{
     float: right;
@@ -31,27 +32,11 @@
     padding-bottom: 2%;
     padding-left: 3%;
 }
-
-@media screen and (max-width: 400px) {
-    .nav-right, .img-left-two{
+@media (max-width: 768px) {
+    .img-right, .select-right{
         display: none;
     }
-    .nav-left{
-        float: none;
-    }
-    .img-left-one{
-        height: 250px;
-        padding-left: 80px;
-    }
-    .input-left{
-        height: 80px;
-        width: 950px;
-        font-size: 55px;
-        padding-left: 10px;
-        margin-left: 40px;
-    }
-  }
-
+}
 /* Navbar ----------------------- */
 .nav-clear{
     clear: both;
@@ -59,20 +44,50 @@
 .nav-navbar{
     margin-left: 4.5%;
 }
-@media screen and (max-width: 400px){
-    .col-apse{
-        height: 180px;
-        width: 180px;
-        font-size: 80px;
-        margin: 40px;
-    }
-    .nl{
-        font-size: 50px;
-        margin-left: 40px;
-    }
-}
 
 /* Start page ------------------- */
+/*media text smaller after med screen*/
+/*media padding none on last photos after med screen*/
+.pl-6 {
+  padding-left: 5.7rem !important;
+}
+
+@media (max-width: 575px) {
+    .fp-1{
+        padding-left: 30px;
+        padding-bottom: 10px;
+    }
+    .fp-3{
+        padding-right: 47px;
+        padding-bottom: 10px;
+    }
+    .fp-4{
+        padding-left: 47px;
+        padding-bottom: 10px;
+    }
+}
+@media (min-width: 576px) {
+    .fp-1{
+        padding-left: 30px;
+        padding-bottom: 10px;
+    }
+    .fp-2{
+        width: 850px;
+    }
+    .fp-3{
+        padding-right: 47px;
+        padding-bottom: 10px;
+    }
+    .fp-4{
+        padding-left: 47px;
+        padding-bottom: 10px;
+    }
+}
+@media (min-width: 768px) {
+    .fp-2{
+        width: auto;
+    }
+}
 .firstPage-div{
     margin-left: 3.5%;
     margin-right: 3.5%;
@@ -131,78 +146,21 @@
     flex: 1;
 }
 .third-card img{
-    height: 120%;
+    height: auto;
     width: 235%;
     padding-right: 3%;
 }
-@media screen and (max-width: 400px){
-    .firstPage-div{
-        margin-left: 3.5%;
-        margin-right: 3.5%;
-    }
-    .first-col{
-        border: none;
-        display: inline;
-    }
-    .first-left{
-        padding: 0
-    }
-    .first-left h3{
-        font-size: 800%;
-        padding-left: 50px;
-    }
-    .first-left p{
-        font-size: 180%;
-        padding-left: 50px;
-    }
-    .first-left button{
-       width: 350px;
-       background-color: white;
-        color: black;
-        border: 2px solid rgb(126, 128, 129);
-        outline: none;
-        border-radius: 5px;
-        font-size: 65px;
-        margin-left: 295px;
-    }
-    .first-right img{
-        height: auto;
-        float: none;
-        width: 250%;
-        padding-top: 10%;
-        padding-bottom: 2%;
-        padding-left: 50px;
-    }
-    .second-col{
-        display: inline;
-        padding: 20px;
-    }
-    .second-card{
-        height: auto;
-        width: 160%;
-    }
-    .second-card img{
-        height: auto;
-        width: 310%;
-        margin-left: 14%;
-    }
-    .body{
-        width: 310%;
-    }
-    .third-col{
-        display: none;
-    }
-    .card-title{
-        font-size: 320%;
-    }
-}
 
 /* Details page ----------------- */
+.dp-main-div{
+    padding-right: 0;
+}
 .dp-left{
-    float: left;
+    padding-left: 7%;
+    padding-top: 1%;
 }
 .dp-right{
-    float: right;
+    padding-top: 1%;
 }
 .dp-second{
     clear: both;
@@ -268,7 +226,7 @@
 }
 
 .footer-child2{
-    width: 25em;
+    width: 20em;
     height: 200px;
 }
 .copy-footer{
@@ -277,4 +235,12 @@
 .select-footer{
     padding-right: 25%;
     border-radius: 5px;
+}
+@media (max-width: 575px) {
+   .ul-footer, .footer-parent, .footer-parent2, .footer-the-parent{
+       display: inline;
+   }
+   .footer-fist-div{
+       padding: 20px;
+   }
 }
